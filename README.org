@@ -6,6 +6,8 @@ Regression testing for text4ht code.
  - testing tex4ht driver/processor
  - testing t4ht postprocessor
  - 1 test file -> n processors (htlatex, xhlatex, dblatex) -> n different outputs.
+ - configuration per single file, per folder(project), global
+
 
 * Output
  - single html + css + images
