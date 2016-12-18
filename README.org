@@ -1,3 +1,10 @@
 Regression testing for text4ht code.
 
+* Needs
+ - output: single html + css
+ - output: multiple html + css + images
+ - output: xhtml
+ - tests for .4ht files
+ - test for .htf fonts
+
 * Approach
