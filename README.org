@@ -25,3 +25,17 @@ Regression testing for text4ht code.
    - resolves multiple output checking: html, css, images.
 ** Disadvantages
    - log file not very human readable
+
+
+* l3build aproach
+  - test log files
+  - test file should be minimal
+  - normalisation of log file
+  - test different engines vs the same (pre-saved) log.
+    This is possible due normalisation. (Not possible in tex4ht as outputs of html,
+    xhtml(tei), xhtml(docbook) is different)
+ - automated testing (without manual intervention)
+ - result of test file is manually verified  and stored as a certified result.
+ - system should be portable (does not necessarily apply to tex4ht, - for now just linux)
+ - create CTAN package
+ - process DTX files (to get .sty, .cls)
