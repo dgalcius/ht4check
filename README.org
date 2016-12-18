@@ -39,3 +39,9 @@ Regression testing for text4ht code.
  - system should be portable (does not necessarily apply to tex4ht, - for now just linux)
  - create CTAN package
  - process DTX files (to get .sty, .cls)
+ - actions:
+   - clean (yes)
+   - ctan (not needed)
+   - doc (not)
+   - install (not)
+   - save (yes)
