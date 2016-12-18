@@ -5,10 +5,19 @@ Regression testing for text4ht code.
  - testing .htf fonts
  - testing tex4ht driver/processor
  - testing t4ht postprocessor
+ - 1 test file -> n processors (htlatex, xhlatex, dblatex) -> n different outputs.
 
 * Output
  - single html + css + images
  - multiple html + css + images
  - xhtml, etc.
  
-* Approach
+* Aproach 1. Checking output files
+
+* Aproach 2. Checking log files
+    If html files (generated vs pre-saved) are the same, so the log files should be.
+
+** Advantages:
+   - resolves multiple output checking: html, css, images.
+** Disadvantages
+   - log file not very human readable
